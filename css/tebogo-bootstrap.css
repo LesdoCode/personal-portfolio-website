@@ -1,0 +1,77 @@
+/*I don't know if I'm allowed to use bootstrap, so I'm choosing to make something similar*/
+
+.text-dark {
+    color: #000000;
+}
+
+.text-light {
+    color: white;
+}
+
+.text-secondary {
+    color: #313131;
+}
+
+.text-faded-secondary {
+    color: #313131a6;
+}
+
+.outdent-1 {
+    margin-left: -10%;
+}
+
+.outdent-2 {
+    margin-left: -20%;
+}
+
+.outdent-3 {
+    margin-left: -30%;
+}
+
+.indent-1 {
+    margin-left: 5%;
+}
+
+.indent-2 {
+    margin-left: 10%;
+}
+
+.indent-3 {
+    margin-left: 15%;
+}
+
+.indent-4 {
+    margin-left: 20%;
+}
+
+.ml-1 {
+    margin-left: 10%;
+}
+
+.ml-2 {
+    margin-left: 20%;
+}
+
+.ml-3 {
+    margin-left: 30%;
+}
+
+.ml-4 {
+    margin-left: 40%;
+}
+
+.mt-1 {
+    margin-top: 10%;
+}
+
+.mt-2 {
+    margin-top: 20%;
+}
+
+.mt-3 {
+    margin-top: 30%;
+}
+
+.mt-4 {
+    margin-top: 40%;
+}

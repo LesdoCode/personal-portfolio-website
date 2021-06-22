@@ -1,0 +1,71 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 250px 4fr;
+}
+
+.content {
+    display: grid;
+    grid-template-areas: "profile-picture header" "profile profile";
+    grid-column-gap: 10%;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "link link link link" "link link link link";
+    grid-gap: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.profile-picture {
+    grid-area: profile-picture;
+}
+
+.header {
+    grid-area: header;
+}
+
+.profile {
+    grid-area: profile;
+}
+
+@media (max-width:1000px) {
+    .sidebar {
+        display: none;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:700px) {
+    .sidebar {
+        display: none;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .content {
+        grid-template-areas: "profile-picture" "header" "profile";
+        grid-column-gap: 10%;
+    }
+    .title {
+        padding: 2% 0 0 0;
+        font-size: 140%;
+    }
+    .profile {
+        color: rgb(2, 2, 27);
+    }
+    .sub-heading {
+        margin-top: 20%;
+    }
+    #education {
+        content: 'Education';
+    }
+}
