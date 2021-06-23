@@ -1,0 +1,39 @@
+:root {
+    height: 100vh;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    --side-pad: 7%;
+}
+
+.sidebar {
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.897);
+    margin: 5% var(--side-pad) 5% var(--side-pad);
+    padding: 10% 7% 5% 7%;
+    border-top-style: solid;
+    border-top-color: rgba(38, 0, 255, 0.781);
+}
+
+.profile-picture {
+    width: 180px;
+    height: 180px;
+    padding-right: 1%;
+}
+
+.round-blue-border {
+    padding: 2%;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 2%;
+    border-color: blue;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
