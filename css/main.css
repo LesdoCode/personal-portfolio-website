@@ -4,7 +4,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    --side-pad: 7%;
+    --side-pad: auto;
+    max-width: 100%;
+}
+
+body {
+    max-width: 100%;
 }
 
 .sidebar {
@@ -13,10 +18,11 @@
 
 .content {
     background-color: rgba(255, 255, 255, 0.897);
-    margin: 5% var(--side-pad) 5% var(--side-pad);
+    margin: 5% 0 5% 0;
     padding: 10% 7% 5% 7%;
     border-top-style: solid;
     border-top-color: rgba(38, 0, 255, 0.781);
+    max-width: 80%
 }
 
 .profile-picture {
@@ -73,4 +79,12 @@
 .static-sidebar-item {
     position: fixed;
     max-width: 200px;
+}
+
+.content {
+    grid-template-areas: "profile-picture" "header" "profile";
+    grid-column-gap: 10%;
+    padding-right: 10%;
+    max-width: 70%;
+    margin: auto;
 }
